@@ -72,14 +72,15 @@ It should return an all-black image with the specified number of rows and column
 ## Part 3: Movie Magic!!
 
 **Implement "green screen" technology.** Implement the function `green_screen` that takes two images as arguments: ```background``` and ```foreground```. The background image is just any ordinary JPG, like ```images/williams.jpg```:
+
     ![image](doc/williams.jpg)
 
-
 The foreground image should be a "green screen" image like ```images/godzilla.jpg```:
+
     ![image](doc/godzilla.jpg)
 
-
 The call ```green_screen(background, foreground)``` should return the non-green component of the foreground image, superimposed upon the background image, like so:
+
     ![image](doc/examplegreen.jpg)
 
 To resulting image should be a new image with the same dimensions as the background image. In order to create it, you need to go through the pixels of the background and foreground images in parallel. If the foreground pixel at a particular grid location is green (check this by establishing whether the pixel's greenness is greater than 2 * its redness and also greater than 2 * its blueness), then use the value of the background pixel in the new image. Otherwise, use the value of the foreground pixel.
@@ -90,12 +91,15 @@ To resulting image should be a new image with the same dimensions as the backgro
 ## Optional Extension: Convolution
 
 Image convolution is the process of manipulating images by averaging each pixel with its neighbors. Each pixel of the new image is a weighted average of itself and its neighbors, as shown below:
+
     ![image](doc/exampleconvolve.jpg)
 
 Above, the weights are the variables a-i, while the pixel values are the variables r-z. Different weights give us different effects. For instance, we can blur an image using uniform weights of 1/9:
+
     ![image](doc/exampleblur.png)
 
 Or we can perform "edge detection" using the following weights: 
+
     ![image](doc/exampleedgedetect.png)
 
 Implement the function ```convolve``` which takes two arguments:
