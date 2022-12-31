@@ -111,18 +111,18 @@ It should return a new image that corresponds to the original image convolved us
 Once completed, you should be able to reproduce the above images by typing the following into iPython:
 
 ```python
-    from imageutil import read_image_as_grayscale, show_image
-    from imageshop import convolve
-    img = read_image_as_grayscale('images/animal.jpg')
-    blurred = convolve(img, [[1/9, 1/9, 1/9],
-                             [1/9, 1/9, 1/9],
-                             [1/9, 1/9, 1/9]])
-    show_image(blurred)
-    img = read_image_as_grayscale('images/cat.jpg')
-    edges = convolve(img, [[0, -1, 0],
-                           [-1, 4, -1],
-                           [0, -1, 0]])
-    show_image(edges)
+   from imageutil import read_image_as_grayscale, show_image
+   from imageshop import convolve
+   img = read_image_as_grayscale('images/animal.jpg')
+   blurred = convolve(img, [[1/9, 1/9, 1/9],
+                            [1/9, 1/9, 1/9],
+                            [1/9, 1/9, 1/9]])
+   show_image(blurred)
+   img = read_image_as_grayscale('images/cat.jpg')
+   edges = convolve(img, [[0, -1, 0],
+                          [-1, 4, -1],
+                          [0, -1, 0]])
+   show_image(edges)
 ```
 
 
