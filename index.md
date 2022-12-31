@@ -56,6 +56,7 @@ It should return an all-black image with the specified number of rows and column
 ## Part 2: Manipulating Images
 
 1. **Flip an image horizontally.** Implement the function `flip_horizontal` in `imageshop.py`. It should take an image as its sole argument, and return a new image that looks like the original image flipped horizontally. For instance, if we type ```show_image(flip_horizontal(read_image("images/cat.jpg")))``` into iPython, then we should see the following flipped image (in the original image, the cat is looking in the other direction and the book titles aren't mirrored):
+
     ![image](doc/exampleflip1.jpg)
 
 2. **Flip an image vertically.** Now flip the image vertically! Implement the function `flip_vertical` in `imageshop.py`. Again, it should take an image as its sole argument, and return a new image that looks like the original image flipped vertically. For instance, if we type ```show_image(flip_vertical(read_image("images/cat.jpg")))``` into iPython, then we should see the following flipped image:
