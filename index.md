@@ -60,10 +60,13 @@ It should return an all-black image with the specified number of rows and column
     ![image](doc/exampleflip1.jpg)
 
 2. **Flip an image vertically.** Now flip the image vertically! Implement the function `flip_vertical` in `imageshop.py`. Again, it should take an image as its sole argument, and return a new image that looks like the original image flipped vertically. For instance, if we type ```show_image(flip_vertical(read_image("images/cat.jpg")))``` into iPython, then we should see the following flipped image:
+
     ![image](doc/exampleflip2.jpg)
 
 3. **Rotate an image 90 degrees to the left (counterclockwise).** Now rotate the image 90 degrees to the left! Implement the function `rotate_left` in `imageshop.py`. Again, it should take an image as its sole argument, and return a new image that looks like the original image rotated 90 degrees counterclockwise. For instance, if we type ```show_image(rotate_left(read_image("images/williams.jpg")))``` into iPython, then we should see the following rotated image:
+
    ![image](doc/examplerotate.jpg)
+   
 **Hint**: observe that the rotated image might not have the same dimensions as the input image. One strategy is to use the ```zeroes``` function to first initialize an image of the correct size, and then modify the pixels of that image.
 
 ## Part 3: Movie Magic!!
