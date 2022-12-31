@@ -47,7 +47,7 @@ image is a list of lists of lists!). You can display the images in iPython (note
     show_image(img2)
     ```
 
-3. **Create an all black image.** Implement the function `zeroes` in `imageshop.py`. It should take two arguments:
+3. **Create an all black image.** Implement the function `zeros` in `imageshop.py`. It should take two arguments:
 - `num_rows`: the number of rows of pixels in the image
 - `num_cols`: the number of columns of pixels in the image
 It should return an all-black image with the specified number of rows and columns. In other words, every pixel should have the value zero.
