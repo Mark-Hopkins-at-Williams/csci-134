@@ -57,15 +57,15 @@ It should return an all-black image with the specified number of rows and column
 
 1. **Flip an image horizontally.** Implement the function `flip_horizontal` in `imageshop.py`. It should take an image as its sole argument, and return a new image that looks like the original image flipped horizontally. For instance, if we type ```show_image(flip_horizontal(read_image("images/cat.jpg")))``` into iPython, then we should see the following flipped image (in the original image, the cat is looking in the other direction and the book titles aren't mirrored):
 
-    ![image](doc/exampleflip1.jpg)
+![image](doc/exampleflip1.jpg)
 
 2. **Flip an image vertically.** Now flip the image vertically! Implement the function `flip_vertical` in `imageshop.py`. Again, it should take an image as its sole argument, and return a new image that looks like the original image flipped vertically. For instance, if we type ```show_image(flip_vertical(read_image("images/cat.jpg")))``` into iPython, then we should see the following flipped image:
 
-    ![image](doc/exampleflip2.jpg)
+![image](doc/exampleflip2.jpg)
 
 3. **Rotate an image 90 degrees to the left (counterclockwise).** Now rotate the image 90 degrees to the left! Implement the function `rotate_left` in `imageshop.py`. Again, it should take an image as its sole argument, and return a new image that looks like the original image rotated 90 degrees counterclockwise. For instance, if we type ```show_image(rotate_left(read_image("images/williams.jpg")))``` into iPython, then we should see the following rotated image:
 
-   ![image](doc/examplerotate.jpg)
+![image](doc/examplerotate.jpg)
    
 **Hint**: observe that the rotated image might not have the same dimensions as the input image. One strategy is to use the ```zeroes``` function to first initialize an image of the correct size, and then modify the pixels of that image.
 
@@ -73,15 +73,15 @@ It should return an all-black image with the specified number of rows and column
 
 **Implement "green screen" technology.** Implement the function `green_screen` that takes two images as arguments: ```background``` and ```foreground```. The background image is just any ordinary JPG, like ```images/williams.jpg```:
 
-    ![image](doc/williams.jpg)
+![image](doc/williams.jpg)
 
 The foreground image should be a "green screen" image like ```images/godzilla.jpg```:
 
-    ![image](doc/godzilla.jpg)
+![image](doc/godzilla.jpg)
 
 The call ```green_screen(background, foreground)``` should return the non-green component of the foreground image, superimposed upon the background image, like so:
 
-    ![image](doc/examplegreen.jpg)
+![image](doc/examplegreen.jpg)
 
 To resulting image should be a new image with the same dimensions as the background image. In order to create it, you need to go through the pixels of the background and foreground images in parallel. If the foreground pixel at a particular grid location is green (check this by establishing whether the pixel's greenness is greater than 2 * its redness and also greater than 2 * its blueness), then use the value of the background pixel in the new image. Otherwise, use the value of the foreground pixel.
 
@@ -92,15 +92,15 @@ To resulting image should be a new image with the same dimensions as the backgro
 
 Image convolution is the process of manipulating images by averaging each pixel with its neighbors. Each pixel of the new image is a weighted average of itself and its neighbors, as shown below:
 
-    ![image](doc/exampleconvolve.jpg)
+![image](doc/exampleconvolve.jpg)
 
 Above, the weights are the variables a-i, while the pixel values are the variables r-z. Different weights give us different effects. For instance, we can blur an image using uniform weights of 1/9:
 
-    ![image](doc/exampleblur.png)
+![image](doc/exampleblur.png)
 
 Or we can perform "edge detection" using the following weights: 
 
-    ![image](doc/exampleedgedetect.png)
+![image](doc/exampleedgedetect.png)
 
 Implement the function ```convolve``` which takes two arguments:
 - ```image``` is the image we want to manipulate (i.e. a list of lists. Assume that this image is grayscale. You can load any JPEG image as a grayscale image using the function ```read_image_as_grayscale```.)
