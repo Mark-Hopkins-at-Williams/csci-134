@@ -1,12 +1,11 @@
 # Lab: Image Shop
 
-```{admonition} Objectives
+## Objectives
 In this lab we will look at how to manipulate images using Python. In doing so, you will gain experience with the following:
-
 - lists, and lists of lists, and lists of lists of lists
 - for statements
 - if statements
-```
+
 
 ## Getting Started
 
