@@ -66,7 +66,7 @@ It should return an all-black image with the specified number of rows and column
 
 ![image](doc/examplerotate.jpg)
    
-**Hint**: observe that the rotated image might not have the same dimensions as the input image. One strategy is to use the ```zeroes``` function to first initialize an image of the correct size, and then modify the pixels of that image.
+**Hint**: observe that the rotated image might not have the same dimensions as the input image. One strategy is to use the ```zeros``` function to first initialize an image of the correct size, and then modify the pixels of that image.
 
 ## Part 3: Movie Magic!!
 
