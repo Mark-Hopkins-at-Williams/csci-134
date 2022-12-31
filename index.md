@@ -103,7 +103,7 @@ Or we can perform "edge detection" using the following weights:
 
 Implement the function ```convolve``` which takes two arguments:
 - ```image``` is the image we want to manipulate (i.e. a list of lists. Assume that this image is grayscale. You can load any JPEG image as a grayscale image using the function ```read_image_as_grayscale```.)
-- ```kernel``` are the nine weights (each weight is a ```float``` or an ``int```), represented as a 3x3 grid, i.e. a list of 3 lists, each of length 3.
+- ```kernel``` are the nine weights (each weight is a ```float``` or an ```int```), represented as a 3x3 grid, i.e. a list of 3 lists, each of length 3.
 
 It should return a new image that corresponds to the original image convolved using the specified weights. If the original image has dimension MxN, then the returned image should have dimension (M-2)x(N-2), because the pixels on the boundary of the original image do not have eight neighbors and thus cannot be processed.
 
