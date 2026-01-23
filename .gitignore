@@ -1,1 +1,5 @@
-.DS_Store
+__pycache__
+builder/node_modules
+builder/assets
+builder/boards
+builder/public
