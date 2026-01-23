@@ -3,30 +3,6 @@ import Csci134 from "./components/Csci134";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./styles.css";
 
-const computeEquationFontSize = () => {
-  const [newCss, setNewCss] = useState(null);
-  useEffect(() => {
-    function handleResize() {
-      let textMultiplier = Math.max(
-        0.8,
-        window.innerWidth > 1000 ? 1.0 : window.innerWidth / 1000,
-      );
-      let eqMultiplier = Math.max(
-        0.4,
-        window.innerWidth > 1000 ? 1.0 : window.innerWidth / 1000,
-      );
-      setNewCss(`
-        .proof-equals {font-size: ${eqMultiplier * 50}px;}
-        .dlamp-milestone {font-size: ${textMultiplier * 1.2}em;}
-      `);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => window.removeEventListener("resize", handleResize);
-  }, []); // effect is only run on mount
-  return newCss;
-};
-
 const App = () => {
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
@@ -160,107 +136,10 @@ const App = () => {
   const [checked, setChecked] = useState(true);
   const [css, setCss] = useState(cssDay);
 
-  const handleChange = (newStatus) => {
-    setChecked(newStatus);
-    if (checked) {
-      setCss(cssNight);
-    } else {
-      setCss(cssDay);
-    }
-  };
-
-  const narrowLayout = (content) => (
-    <div className="dlamp-layout-narrow">
-      <style>{css + computeEquationFontSize()}</style>
-      <div id={loading ? "cover" : ""} />
-      <div className="dlamp-top-container">
-        <Topbar checked={checked} onChange={handleChange} />
-      </div>
-      <div className="rightbg dlamp-bottom-container">
-        <div
-          className="dlamp-content"
-          style={{
-            display: "flex",
-            flexFlow: "column nowrap",
-            justifyContent: "space-around",
-            alignContent: "center",
-          }}
-        >
-          {content}
-          <div className="dlamp-footer">
-            <hr className="dlamp-footer-hr" />© mark hopkins, williams college
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-
-  const standardLayout = (content) => (
-    <div>
-      <style>{css + computeEquationFontSize()}</style>
-      <div id={loading ? "cover" : null} />
-      <div className="dlamp-layout-wide dlamp-left-container">
-        <Sidebar checked={checked} onChange={handleChange} />
-      </div>
-      <div className="dlamp-layout-wide dlamp-right-container rightbg">
-        <div
-          className="dlamp-content"
-          style={{
-            display: "flex",
-            flexFlow: "column nowrap",
-            justifyContent: "space-around",
-            alignContent: "center",
-          }}
-        >
-          {content}
-          <div className="dlamp-footer">
-            <hr className="dlamp-footer-hr" />© mark hopkins, williams college
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-
-  const autoLayout = (content) =>
-    windowSize.width > 1100 ? standardLayout(content) : narrowLayout(content);
-
   const router = createHashRouter([
     {
       path: "/",
       element: <Csci134 />,
-    },
-    {
-      path: "dlamp1/",
-      element: autoLayout(
-        <Chapter1
-          bullet={checked ? dayBullet : nightBullet}
-          color1={checked ? dayTextColor : nightTextColor}
-          color2={checked ? dayHeaderColor : nightHeaderColor}
-          color3={checked ? dayTermColor : nightTermColor}
-        />,
-      ),
-    },
-    {
-      path: "dlamp2/",
-      element: autoLayout(
-        <Chapter2
-          bullet={checked ? dayBullet : nightBullet}
-          color1={checked ? dayTextColor : nightTextColor}
-          color2={checked ? dayHeaderColor : nightHeaderColor}
-          color3={checked ? dayTermColor : nightTermColor}
-        />,
-      ),
-    },
-    {
-      path: "dlamp3/",
-      element: autoLayout(
-        <Chapter3
-          bullet={checked ? dayBullet : nightBullet}
-          color1={checked ? dayTextColor : nightTextColor}
-          color2={checked ? dayHeaderColor : nightHeaderColor}
-          color3={checked ? dayTermColor : nightTermColor}
-        />,
-      ),
     },
   ]);
 
