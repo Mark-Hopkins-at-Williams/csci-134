@@ -3,3 +3,4 @@ builder/node_modules
 builder/assets
 builder/boards
 builder/public
+builder/dist

@@ -1,19 +1,20 @@
-import { useState, useEffect, useRef, React } from 'react'
-import Csci134 from './components/Csci134'
-import Chapter1 from './components/Chapter1'
-import Chapter2 from './components/Chapter2'
-import Chapter3 from './components/Chapter3'
-import Sidebar from './components/Sidebar'
-import Topbar from './components/Topbar'
+import { useState, useEffect, useRef, React } from "react";
+import Csci134 from "./components/Csci134";
 import { createHashRouter, RouterProvider } from "react-router-dom";
-import './styles.css'
+import "./styles.css";
 
 const computeEquationFontSize = () => {
   const [newCss, setNewCss] = useState(null);
   useEffect(() => {
     function handleResize() {
-      let textMultiplier = Math.max(0.8, window.innerWidth > 1000 ? 1.0 : (window.innerWidth / 1000));
-      let eqMultiplier = Math.max(0.4, window.innerWidth > 1000 ? 1.0 : (window.innerWidth / 1000));
+      let textMultiplier = Math.max(
+        0.8,
+        window.innerWidth > 1000 ? 1.0 : window.innerWidth / 1000,
+      );
+      let eqMultiplier = Math.max(
+        0.4,
+        window.innerWidth > 1000 ? 1.0 : window.innerWidth / 1000,
+      );
       setNewCss(`
         .proof-equals {font-size: ${eqMultiplier * 50}px;}
         .dlamp-milestone {font-size: ${textMultiplier * 1.2}em;}
@@ -24,13 +25,12 @@ const computeEquationFontSize = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []); // effect is only run on mount
   return newCss;
-}
+};
 
 const App = () => {
-
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
-    height: window.innerHeight
+    height: window.innerHeight,
   });
 
   const [loading, setLoading] = useState(true);
@@ -39,13 +39,13 @@ const App = () => {
     const handleResize = () => {
       setWindowSize({
         width: window.innerWidth,
-        height: window.innerHeight
+        height: window.innerHeight,
       });
     };
     setLoading(false);
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -113,8 +113,7 @@ const App = () => {
     li > a:hover { font-weight: bold; color: ${dayHeaderColor}; }
     hr {height: 1.0px; border: 1px solid ${dayHeaderColor}; color: ${dayHeaderColor}; background: ${dayHeaderColor};}
     a:hover {color: #0A8808;}
-  `
-
+  `;
 
   const cssNight = `
     body { background-color: ${nightRightBgColor} }
@@ -156,7 +155,7 @@ const App = () => {
     li > a:hover { font-weight: bold; color: ${nightHeaderColor}; }
     hr {height: 1.0px; border: 1px solid ${nightHeaderColor}; color: ${nightHeaderColor}; background: ${nightHeaderColor};}
     a:hover {color: red;}
-  `
+  `;
 
   const [checked, setChecked] = useState(true);
   const [css, setCss] = useState(cssDay);
@@ -168,104 +167,104 @@ const App = () => {
     } else {
       setCss(cssDay);
     }
-  }
+  };
 
   const narrowLayout = (content) => (
     <div className="dlamp-layout-narrow">
       <style>{css + computeEquationFontSize()}</style>
       <div id={loading ? "cover" : ""} />
       <div className="dlamp-top-container">
-        <Topbar
-          checked={checked}
-          onChange={handleChange}
-        />
+        <Topbar checked={checked} onChange={handleChange} />
       </div>
       <div className="rightbg dlamp-bottom-container">
-        <div className="dlamp-content" style={{
-          display: 'flex',
-          flexFlow: 'column nowrap',
-          justifyContent: 'space-around',
-          alignContent: 'center'
-        }}>
+        <div
+          className="dlamp-content"
+          style={{
+            display: "flex",
+            flexFlow: "column nowrap",
+            justifyContent: "space-around",
+            alignContent: "center",
+          }}
+        >
           {content}
           <div className="dlamp-footer">
-            <hr className="dlamp-footer-hr" />
-            © mark hopkins, williams college
+            <hr className="dlamp-footer-hr" />© mark hopkins, williams college
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 
   const standardLayout = (content) => (
     <div>
       <style>{css + computeEquationFontSize()}</style>
       <div id={loading ? "cover" : null} />
       <div className="dlamp-layout-wide dlamp-left-container">
-        <Sidebar
-          checked={checked}
-          onChange={handleChange}
-        />
+        <Sidebar checked={checked} onChange={handleChange} />
       </div>
       <div className="dlamp-layout-wide dlamp-right-container rightbg">
-        <div className="dlamp-content" style={{
-          display: 'flex',
-          flexFlow: 'column nowrap',
-          justifyContent: 'space-around',
-          alignContent: 'center'
-        }}>
+        <div
+          className="dlamp-content"
+          style={{
+            display: "flex",
+            flexFlow: "column nowrap",
+            justifyContent: "space-around",
+            alignContent: "center",
+          }}
+        >
           {content}
           <div className="dlamp-footer">
-            <hr className="dlamp-footer-hr" />
-            © mark hopkins, williams college
+            <hr className="dlamp-footer-hr" />© mark hopkins, williams college
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 
-  const autoLayout = (content) => (
-    windowSize.width > 1100 ? standardLayout(content) : narrowLayout(content)
-  )
+  const autoLayout = (content) =>
+    windowSize.width > 1100 ? standardLayout(content) : narrowLayout(content);
 
   const router = createHashRouter([
     {
       path: "/",
-      element: <Csci134 />
+      element: <Csci134 />,
     },
     {
       path: "dlamp1/",
       element: autoLayout(
-        <Chapter1 bullet={checked ? dayBullet : nightBullet}
+        <Chapter1
+          bullet={checked ? dayBullet : nightBullet}
           color1={checked ? dayTextColor : nightTextColor}
           color2={checked ? dayHeaderColor : nightHeaderColor}
           color3={checked ? dayTermColor : nightTermColor}
-        />
-      )
+        />,
+      ),
     },
     {
       path: "dlamp2/",
       element: autoLayout(
-        <Chapter2 bullet={checked ? dayBullet : nightBullet}
+        <Chapter2
+          bullet={checked ? dayBullet : nightBullet}
           color1={checked ? dayTextColor : nightTextColor}
           color2={checked ? dayHeaderColor : nightHeaderColor}
           color3={checked ? dayTermColor : nightTermColor}
-        />
-      )
+        />,
+      ),
     },
     {
       path: "dlamp3/",
       element: autoLayout(
-        <Chapter3 bullet={checked ? dayBullet : nightBullet}
+        <Chapter3
+          bullet={checked ? dayBullet : nightBullet}
           color1={checked ? dayTextColor : nightTextColor}
           color2={checked ? dayHeaderColor : nightHeaderColor}
           color3={checked ? dayTermColor : nightTermColor}
-        />
-      )
+        />,
+      ),
     },
   ]);
 
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router} />;
 };
 
 export default App;
