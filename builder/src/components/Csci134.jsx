@@ -211,6 +211,7 @@ const SlideDeck = ({ type, title, link, release }) => {
   const now = new Date(Date.now());
   const locked = release ? now <= new Date(release) : true;
   const iconMap = {
+    jlecture: "👩🏻‍🏫",
     lecture: "👨‍🏫",
     activity: "✍️",
     kahoot: "🏆",
