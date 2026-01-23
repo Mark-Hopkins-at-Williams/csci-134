@@ -136,13 +136,6 @@ ul {
   font-size: 24px;
 }
 
-.csci134-question {
-  font-family: "Matemasie";
-  font-weight: 400;
-  font-style: normal;
-  color: crimson
-}
-
 .csci134-schedule-header {
   font-family: "Bangers";
   font-weight: 400;
@@ -150,17 +143,6 @@ ul {
   font-size: 24px;
 }
 
-.csci134-upcoming {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-}
-
-.csci134-course-number {
-  font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-}
 .csci134-text {
   font-family: "Quicksand";
   font-weight: 400;
