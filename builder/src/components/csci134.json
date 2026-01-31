@@ -52,7 +52,7 @@
                 {
                     "type": "kahoot",
                     "title": "primitive expressions",
-                    "release": "Jan 28 2026",
+                    "release": "Feb 10 2026",
                     "link": "https://create.kahoot.it/share/primitive-expressions/6213f26c-1eaf-4d39-b293-432da620e85e"
                 },
                 {
@@ -78,7 +78,7 @@
                 {
                     "type": "kahoot",
                     "title": "simple expression trees",
-                    "release": "Jan 29 2026",
+                    "release": "Feb 12 2026",
                     "link": "https://create.kahoot.it/share/expression-trees/61b8bb85-1787-49c9-ba46-d76413502fd6"
                 },
                 {
@@ -96,7 +96,7 @@
                 {
                     "type": "kahoot",
                     "title": "flattened expressions",
-                    "release": "Feb 9 2026",
+                    "release": "Feb 12 2026",
                     "link": "https://create.kahoot.it/share/flattened-expressions/1a2891ae-9355-423b-8b17-4adeec463e3a"
                 }
             ],
@@ -174,7 +174,7 @@
                 {
                     "type": "kahoot",
                     "title": "function expressions",
-                    "release": "Feb 20 2026",
+                    "release": "Feb 21 2026",
                     "link": "https://create.kahoot.it/share/function-expressions/735ee790-0127-4d8e-aa43-838279f13d0f"
                 },
                 {
@@ -237,7 +237,7 @@
                 {
                     "type": "kahoot",
                     "title": "functions and nonetype",
-                    "release": "Feb 24 2026",
+                    "release": "Feb 25 2026",
                     "link": "https://create.kahoot.it/share/functions-and-nonetype/49675df1-e775-4377-9990-325b212d49ae"
                 },
                 {
@@ -249,7 +249,7 @@
                 {
                     "type": "kahoot",
                     "title": "variable scope",
-                    "release": "Feb 24 2026",
+                    "release": "Feb 25 2026",
                     "link": "https://create.kahoot.it/share/variable-scope/4fb7cbb5-ab6b-462b-ab68-858eeefb26fa"
                 }
             ],
@@ -359,7 +359,7 @@
                 {
                     "type": "kahoot",
                     "title": "lists",
-                    "release": "Mar 11 2026",
+                    "release": "Mar 12 2026",
                     "link": "https://create.kahoot.it/share/lists/e8d9faa8-3bd9-4eec-8e40-0e3c8d443759"
                 },
                 {
@@ -379,7 +379,7 @@
                 {
                     "type": "kahoot",
                     "title": "dictionaries",
-                    "release": "Mar 13 2026",
+                    "release": "Mar 14 2026",
                     "link": "https://create.kahoot.it/share/dictionaries/600fdc92-2591-44ae-8662-f895c29700d4"
                 },
                 {
@@ -404,13 +404,13 @@
                 {
                     "type": "lecture",
                     "title": "sets",
-                    "release": "Mar 13 2026",
+                    "release": "Mar 16 2026",
                     "link": "https://drive.google.com/file/d/13qSG3wCXgOebBn9z75UkAjvtVmgY90vJ/view?usp=sharing"
                 },
                 {
                     "type": "kahoot",
                     "title": "sets",
-                    "release": "Mar 13 2026",
+                    "release": "Mar 17 2026",
                     "link": "https://create.kahoot.it/share/sets/d61f74ce-c68f-4eb2-8384-d3274252add2"
                 },
                 {
@@ -422,7 +422,7 @@
                 {
                     "type": "kahoot",
                     "title": "string slicing",
-                    "release": "Mar 16 2026",
+                    "release": "Mar 17 2026",
                     "link": "https://create.kahoot.it/share/string-indexing/7af2d2f0-3ec7-4779-8959-70814a8bb06e"
                 }
             ],
@@ -430,25 +430,25 @@
                 {
                     "type": "lecture",
                     "title": "mutability and tuples",
-                    "release": "Mar 16 2026",
+                    "release": "Mar 18 2026",
                     "link": "https://drive.google.com/file/d/1PltQBqJEZEfjQWTMM0v4H59orvQYMfHQ/view?usp=sharing"
                 },
                 {
                     "type": "activity",
                     "title": "market research",
-                    "release": "Mar 16 2026",
+                    "release": "Mar 18 2026",
                     "link": "https://docs.google.com/document/d/1YY7iAaT5B4-_ldlVuH6vD0W2aXT9ERbioTZ75GorESI/edit?usp=sharing"
                 },
                 {
                     "type": "lecture",
                     "title": "list comprehensions",
-                    "release": "Mar 16 2026",
+                    "release": "Mar 18 2026",
                     "link": "https://drive.google.com/file/d/1Ye1lSq4qZatnkqvfNCaqvvXOQZ2W1tcW/view?usp=sharing"
                 },
                 {
                     "type": "kahoot",
                     "title": "list comprehensions",
-                    "release": "Mar 16 2026",
+                    "release": "Mar 19 2026",
                     "link": "https://create.kahoot.it/share/list-comprehensions/07ca18c1-e915-42f2-bc1f-7e4c75f75203"
                 }
             ],
@@ -456,7 +456,7 @@
                 {
                     "type": "quiz",
                     "title": "quiz 2",
-                    "release": "Feb 9 2030",
+                    "release": "Mar 20 2030",
                     "link": ""
                 }
             ]
@@ -575,13 +575,13 @@
                 {
                     "type": "activity",
                     "title": "inception",
-                    "release": "Apr 8 2026",
+                    "release": "Apr 10 2026",
                     "link": "https://docs.google.com/document/d/1iPjH4sLg59kg1O1pPpdve98wAtU-s6gatMsMAXaFUIM/edit?usp=sharing"
                 },
                 {
                     "type": "lecture",
                     "title": "recursion",
-                    "release": "Apr 13 2026",
+                    "release": "Apr 10 2026",
                     "link": "https://drive.google.com/file/d/1TXPIQ2TEhwUktsmXT9vYZGne8A_bxT7N/view?usp=sharing"
                 }
             ]
@@ -620,7 +620,7 @@
                 {
                     "type": "kahoot",
                     "title": "methods",
-                    "release": "Apr 15 2026",
+                    "release": "Apr 16 2026",
                     "link": "https://create.kahoot.it/share/methods/4a1b932f-2ed8-4776-9afb-e2d09aa7bd23"
                 },
                 {
@@ -703,7 +703,7 @@
                 {
                     "type": "kahoot",
                     "title": "sorting",
-                    "release": "Apr 22 2026",
+                    "release": "Apr 23 2026",
                     "link": "https://create.kahoot.it/share/sorting/1930467d-938d-4c4f-be58-9882514bf0aa"
                 },
                 {
@@ -768,7 +768,7 @@
                 {
                     "type": "kahoot",
                     "title": "polynomial complexity",
-                    "release": "Apr 29 2026",
+                    "release": "Apr 30 2026",
                     "link": "https://create.kahoot.it/share/polynomial-complexity/8d42c2da-55e0-4633-b9ec-e00a3d763112"
                 }
             ],
@@ -788,7 +788,7 @@
                 {
                     "type": "kahoot",
                     "title": "logarithmic complexity",
-                    "release": "May 1 2026",
+                    "release": "May 2 2026",
                     "link": "https://create.kahoot.it/share/logarithmic-complexity/387d5a58-a441-49fa-92da-0fa7abe38372"
                 }
             ]
@@ -845,7 +845,7 @@
                 {
                     "type": "kahoot",
                     "title": "alternative bases",
-                    "release": "May 6 2026",
+                    "release": "May 7 2026",
                     "link": "https://create.kahoot.it/share/alternative-bases/3930015f-1a40-4386-9e73-ab667c1e0bae"
                 }
             ],
@@ -853,7 +853,7 @@
                 {
                     "type": "quiz",
                     "title": "quiz 4",
-                    "release": "Feb 9 2030",
+                    "release": "May 8 2030",
                     "link": ""
                 }
             ]
