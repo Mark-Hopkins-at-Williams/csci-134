@@ -125,19 +125,19 @@ const TeachingAssistants = () => {
           <TeachingAssistant
             image="images/jeannie.jpg"
             name="Jeannie"
-            hours="thu 130-330pm"
+            hours="wed 1-3pm"
             where="tcl 305"
           />
           <TeachingAssistant
             image="images/lida.jpg"
             name="Lida"
-            hours="wed 130-3pm"
-            where="tcl 301"
+            hours=""
+            where="tcl 205"
           />
           <TeachingAssistant
             image="images/mark.png"
             name="Mark"
-            hours="wed 2-4pm"
+            hours="thu 230-4pm"
             where="tcl 307"
           />
           <TeachingAssistant
