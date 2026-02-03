@@ -143,7 +143,7 @@ const TeachingAssistants = () => {
           <TeachingAssistant
             image="images/beaker.png"
             name="tas"
-            hours2="wed-thu 4-6pm"
+            hours2="wed 430-6pm"
             hours="mon-thu 7-10pm"
             where="tcl 216/217"
           />
