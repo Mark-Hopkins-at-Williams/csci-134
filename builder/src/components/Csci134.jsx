@@ -144,7 +144,7 @@ const TeachingAssistants = () => {
             image="images/beaker.png"
             name="tas"
             hours2="wed 430-6pm"
-            hours="sun-thu 7-10pm"
+            hours="mon-thu 7-10pm"
             where="tcl 216/217"
           />
         </div>
