@@ -121,27 +121,9 @@
             "mon": [
                 {
                     "type": "jlecture",
-                    "title": "arithmetic",
+                    "title": "arithmetic and variables",
                     "release": "Feb 16 2026",
-                    "link": "https://drive.google.com/file/d/11QBONCTsRt71PXQ4a1HejPB7TJOK4qyb/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "infix",
-                    "release": "Feb 16 2026",
-                    "link": "https://docs.google.com/document/d/1CyfQz_bWbe1Ilaa4B-p6kTWVtHpWxib3GkljB3m7cRo/edit?usp=sharing"
-                },
-                {
-                    "type": "jlecture",
-                    "title": "variables",
-                    "release": "Feb 16 2026",
-                    "link": "https://drive.google.com/file/d/1yO5QTe8-FFO6rvuquteaNCaSBRhYu4bT/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "swaparoo",
-                    "release": "Feb 16 2026",
-                    "link": "https://docs.google.com/document/d/10iyywRNeHYInZrY16a0jc9mKioIXLDPUsj398H-AMLw/edit?usp=sharing"
+                    "link": "https://drive.google.com/file/d/19DDTpkUy6d2JkXZF2BMqmDmetR1QzKD0/view?usp=sharing"
                 }
             ],
             "wed": [
