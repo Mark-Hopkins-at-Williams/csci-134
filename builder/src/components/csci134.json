@@ -128,7 +128,7 @@
             ],
             "wed": [
                 {
-                    "type": "jlecture",
+                    "type": "jlecture", 
                     "title": "boolean expressions",
                     "release": "Feb 18 2026",
                     "link": "https://drive.google.com/file/d/1j2EwPHmmH7T_8HX6Id3HDiTi6V9JxWAe/view?usp=sharing"
