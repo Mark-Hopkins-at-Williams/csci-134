@@ -128,22 +128,10 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "boolean expressions",
                     "release": "Feb 18 2026",
-                    "link": "https://drive.google.com/file/d/1SS0LNa8D6FuPhuLjipDLoBydgQ8KC-xr/view?usp=sharing"
-                },
-                {
-                    "type": "kahoot",
-                    "title": "boolean expressions",
-                    "release": "Feb 19 2026",
-                    "link": "https://create.kahoot.it/share/boolean-expressions/d8f40f56-292b-4298-b5a7-72da1d57b5d5"
-                },
-                {
-                    "type": "activity",
-                    "title": "staffing",
-                    "release": "Feb 18 2026",
-                    "link": "https://docs.google.com/document/d/1ZBFuhZ3oZ-UqsX21Yu9Q518j1Z8ulAUIME50dZVEvI4/edit?usp=sharing"
+                    "link": "https://drive.google.com/file/d/1j2EwPHmmH7T_8HX6Id3HDiTi6V9JxWAe/view?usp=sharing"
                 }
             ],
             "fri": [
