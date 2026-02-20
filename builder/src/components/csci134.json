@@ -43,12 +43,12 @@
                 "link": "https://docs.google.com/document/d/1zUX2mVQ67jtGe64ulqAaN2qidU4shO-0xMLBc-t2uZ8/edit?usp=sharing"
             },
             "mon": [
-		{
+                {
                     "type": "jlecture",
                     "title": "course overview",
                     "release": "Jan 28 2026",
                     "link": "https://drive.google.com/file/d/1H4fFf-DjxrnnyQVr3uj21wW0T2DTPW_E/view?usp=sharing"
-		},
+                },
                 {
                     "type": "lecture",
                     "title": "primitive expressions",
@@ -134,7 +134,7 @@
             ],
             "wed": [
                 {
-                    "type": "jlecture", 
+                    "type": "jlecture",
                     "title": "boolean expressions",
                     "release": "Feb 18 2026",
                     "link": "https://drive.google.com/file/d/1j2EwPHmmH7T_8HX6Id3HDiTi6V9JxWAe/view?usp=sharing"
@@ -164,6 +164,12 @@
                     "title": "lambda lambda lambda",
                     "release": "Feb 20 2026",
                     "link": "https://docs.google.com/document/d/1BNllKf4Bfam_uXSKL8NSTUpdj1lSjF6CgkOWqwra3Ps/edit?usp=sharing"
+                },
+                {
+                    "type": "lecture",
+                    "title": "def statements",
+                    "release": "Feb 20 2026",
+                    "link": "https://drive.google.com/file/d/15_EaDdK5syScUIkwTqNMIcRvFmlbky5y/view?usp=sharing"
                 }
             ]
         },
@@ -178,12 +184,6 @@
                 "link": "https://docs.google.com/document/d/1FVYEnXD62kibkd-knOmahOC4saFuO62R77Eh4IEdE48/edit?usp=sharing"
             },
             "mon": [
-                {
-                    "type": "lecture",
-                    "title": "def statements",
-                    "release": "Feb 20 2026",
-                    "link": "https://drive.google.com/file/d/15_EaDdK5syScUIkwTqNMIcRvFmlbky5y/view?usp=sharing"
-                },
                 {
                     "type": "activity",
                     "title": "quality assurance",
