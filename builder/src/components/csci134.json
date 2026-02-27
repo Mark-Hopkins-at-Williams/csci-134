@@ -295,6 +295,12 @@
             ],
             "fri": [
                 {
+                    "type": "activity",
+                    "title": "quiz 1 practice",
+                    "release": "Feb 27 2026",
+                    "link": "https://docs.google.com/document/d/1c8VCxeVf-0AiHqjNRO_Ch5_4Ac-iUUH3xiriFdRWsAM/edit?usp=sharing"
+                },
+                {
                     "type": "quiz",
                     "title": "quiz 1",
                     "release": "Feb 9 2030",
