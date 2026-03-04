@@ -269,28 +269,10 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "for statements",
                     "release": "Mar 4 2026",
-                    "link": "https://drive.google.com/file/d/1FR0XCO63i4G4YiyBcuQ-AZvyle2d0usU/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "cookie swap",
-                    "release": "Mar 4 2026",
-                    "link": "https://docs.google.com/document/d/1RUob2Y1h6qbrZz_y2kcXkWIuSBQQRmzs-NNPLIwhlIw/edit?usp=sharing"
-                },
-                {
-                    "type": "lecture",
-                    "title": "if statements",
-                    "release": "Mar 4 2026",
-                    "link": "https://drive.google.com/file/d/1hYbN5-dCojt1fRyP3-VSL3I8hXPeHGq8/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "biscuitus, dirige nos",
-                    "release": "Mar 4 2026",
-                    "link": "https://docs.google.com/document/d/1NmIASMG19S3rlJ0vh3Uoow1fahIawUXqbKS4CfbbdII/edit?usp=sharing"
+                    "link": "https://drive.google.com/file/d/1keJcavF3t5l5uLKiySfxxkyk3lOcHHRB/view?usp=sharing"
                 }
             ],
             "fri": [
