@@ -301,16 +301,10 @@
             },
             "mon": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "while statements",
                     "release": "Mar 9 2026",
-                    "link": "https://drive.google.com/file/d/1t-np6lNzCn6yn44Khr3AqTrJLdQRipP2/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "cookie salon",
-                    "release": "Mar 9 2026",
-                    "link": "https://docs.google.com/document/d/1XIfyu6EZSN1NEH1GobixeowCQlPwZbDBAM7XfRJVoCY/edit?usp=sharing"
+                    "link": "https://drive.google.com/file/d/1f0O2g64oW66wItISPLmltLP_Gpp4Y3hM/view?usp=sharing"
                 }
             ],
             "wed": [
