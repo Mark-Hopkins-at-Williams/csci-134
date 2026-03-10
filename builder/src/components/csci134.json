@@ -309,7 +309,7 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "lists",
                     "release": "Mar 11 2026",
                     "link": "https://drive.google.com/file/d/1nvMM4RFdZ7uywzFo87t5QamT1y61NdPq/view?usp=sharing"
@@ -360,7 +360,7 @@
             },
             "mon": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "sets",
                     "release": "Mar 16 2026",
                     "link": "https://drive.google.com/file/d/13qSG3wCXgOebBn9z75UkAjvtVmgY90vJ/view?usp=sharing"
@@ -372,7 +372,7 @@
                     "link": "https://create.kahoot.it/share/sets/d61f74ce-c68f-4eb2-8384-d3274252add2"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "string slicing",
                     "release": "Mar 16 2026",
                     "link": "https://drive.google.com/file/d/1bZ_92U6WF0EEsn5K_gK89oetzc-6R9_8/view?usp=sharing"
@@ -386,7 +386,7 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "mutability and tuples",
                     "release": "Mar 18 2026",
                     "link": "https://drive.google.com/file/d/1PltQBqJEZEfjQWTMM0v4H59orvQYMfHQ/view?usp=sharing"
@@ -398,7 +398,7 @@
                     "link": "https://docs.google.com/document/d/1YY7iAaT5B4-_ldlVuH6vD0W2aXT9ERbioTZ75GorESI/edit?usp=sharing"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "list comprehensions",
                     "release": "Mar 18 2026",
                     "link": "https://drive.google.com/file/d/1Ye1lSq4qZatnkqvfNCaqvvXOQZ2W1tcW/view?usp=sharing"
@@ -570,7 +570,7 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "methods",
                     "release": "Apr 15 2026",
                     "link": "https://drive.google.com/file/d/1KFNhtc1n0OB0MwqcONFYdCAOXb5f-QRs/view?usp=sharing"
@@ -582,7 +582,7 @@
                     "link": "https://create.kahoot.it/share/methods/4a1b932f-2ed8-4776-9afb-e2d09aa7bd23"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "classes",
                     "release": "Apr 15 2026",
                     "link": "https://drive.google.com/file/d/1ksGYH0CLX82uV8lrFtDSKi8DsdKSuQxk/view?usp=sharing"
@@ -596,7 +596,7 @@
             ],
             "fri": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "object state",
                     "release": "Apr 17 2026",
                     "link": "https://drive.google.com/file/d/1NRAPN_6faJmMeqiI5xckxrpABh93ZmlX/view?usp=sharing"
@@ -608,7 +608,7 @@
                     "link": "https://docs.google.com/document/d/1-TnweFnIBmF7y8sf7BKgkZywe-WN6LuFoY75Wp1Utvw/edit?usp=sharing"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "special methods",
                     "release": "Apr 17 2026",
                     "link": "https://drive.google.com/file/d/1diXRKz7tW3Uu00F700_6RowAlDWsb9Zn/view?usp=sharing"
@@ -633,7 +633,7 @@
             },
             "mon": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "inheritance",
                     "release": "Apr 20 2026",
                     "link": "https://drive.google.com/file/d/1RF89w_LGCButyd3QkPtzSQ_tkf-XwBZx/view?usp=drive_link"
@@ -653,7 +653,7 @@
                     "link": "https://docs.google.com/presentation/d/1gos8Rpsas8GnHj-6bDC-ljXNFvGODiImWmz83q47T_o/copy"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "sorting",
                     "release": "Apr 22 2026",
                     "link": "https://drive.google.com/file/d/18-_Jc_PnI5XpN8S21vorvxv9I4RhF5zN/view?usp=sharing"
@@ -698,7 +698,7 @@
                     "link": "https://docs.google.com/document/d/1sGZLAhnADT9hciNaCEaTh6Ht2rW5tBigJc68pQZ8lsw/edit?usp=sharing"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "worst-case analysis",
                     "release": "Apr 27 2026",
                     "link": "https://drive.google.com/file/d/1zaSPQEnSLb9bvzqKMNyvNN8W68mA1Bxj/view?usp=sharing"
@@ -712,7 +712,7 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "o-notation",
                     "release": "Apr 29 2026",
                     "link": "https://drive.google.com/file/d/1mVDEH13-vj3mq5hXrBbAIaUrB8c2zNxx/view?usp=sharing"
@@ -783,7 +783,7 @@
             ],
             "wed": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "binary numbers",
                     "release": "May 6 2026",
                     "link": "https://drive.google.com/file/d/1HSQTKc7Gou2T4ul7ql_VtvoK84ZbWL1D/view?usp=sharing"
@@ -795,7 +795,7 @@
                     "link": "https://docs.google.com/document/d/18zCJypnfpWAOVrfNSOPgRPHGXYT3ScYEwUd_f3wpiZ8/edit?usp=sharing"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "alternative bases",
                     "release": "May 6 2026",
                     "link": "https://drive.google.com/file/d/1u5dt_4Fd6oY4azsItf-HfRMTdz2TEEHh/view?usp=sharing"
@@ -828,7 +828,7 @@
             },
             "mon": [
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "hexadecimal representation",
                     "release": "May 11 2026",
                     "link": "https://drive.google.com/file/d/1cQEAW1RoEXPT5kEVu62RaKFfyFOwrPvZ/view?usp=sharing"
@@ -840,7 +840,7 @@
                     "link": "https://docs.google.com/document/d/1INILeLL7_IPm05zXSFHpPkJVJ-Cp-0rHXZv7BI9dDxg/edit?usp=sharing"
                 },
                 {
-                    "type": "lecture",
+                    "type": "jlecture",
                     "title": "files",
                     "release": "May 11 2026",
                     "link": "https://drive.google.com/file/d/19DxBJQPqLdQxDZzW8MIXOwOXw8Ia5nH-/view?usp=drive_link"
