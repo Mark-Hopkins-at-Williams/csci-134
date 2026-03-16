@@ -355,7 +355,7 @@
             "mon": [
                 {
                     "type": "jlecture",
-                    "title": "sets",
+                    "title": "string slicing and sets",
                     "release": "Mar 16 2026",
                     "link": "https://drive.google.com/file/d/1ReZ5kVI8Gp3QfWqeSnA2PJ2JXFss5TUd/view?usp=sharing"
                 }
@@ -363,7 +363,7 @@
             "wed": [
                 {
                     "type": "jlecture",
-                    "title": "mutability and tuples",
+                    "title": "list comprehensions, mutability, tuples",
                     "release": "Mar 18 2026",
                     "link": "https://drive.google.com/file/d/1PltQBqJEZEfjQWTMM0v4H59orvQYMfHQ/view?usp=sharing"
                 },
@@ -372,18 +372,6 @@
                     "title": "market research",
                     "release": "Mar 18 2026",
                     "link": "https://docs.google.com/document/d/1YY7iAaT5B4-_ldlVuH6vD0W2aXT9ERbioTZ75GorESI/edit?usp=sharing"
-                },
-                {
-                    "type": "jlecture",
-                    "title": "list comprehensions",
-                    "release": "Mar 18 2026",
-                    "link": "https://drive.google.com/file/d/1Ye1lSq4qZatnkqvfNCaqvvXOQZ2W1tcW/view?usp=sharing"
-                },
-                {
-                    "type": "kahoot",
-                    "title": "list comprehensions",
-                    "release": "Mar 19 2026",
-                    "link": "https://create.kahoot.it/share/list-comprehensions/07ca18c1-e915-42f2-bc1f-7e4c75f75203"
                 }
             ],
             "fri": [
