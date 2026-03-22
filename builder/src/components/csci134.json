@@ -673,6 +673,12 @@
             ],
             "fri": [
                 {
+                    "type": "activity",
+                    "title": "quiz 3 practice",
+                    "release": "Apr 17 2026",
+                    "link": "https://docs.google.com/document/d/1Q4BFJyDQg6PUQtWVfmC9OYAeu7GTWJMzVQMtCuMtH70/edit?usp=sharing"
+                },
+                {
                     "type": "quiz",
                     "title": "quiz 3",
                     "release": "Feb 9 2030",
@@ -808,6 +814,12 @@
                 }
             ],
             "fri": [
+                {
+                    "type": "activity",
+                    "title": "quiz 4 practice",
+                    "release": "May 1 2026",
+                    "link": "https://docs.google.com/document/d/1-V9SPeBNNk8YoVw6l1dnE6J3ie2fJZGCfXzSwPRNZIA/edit?usp=sharing"
+                },
                 {
                     "type": "quiz",
                     "title": "quiz 4",
