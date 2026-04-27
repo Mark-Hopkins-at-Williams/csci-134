@@ -602,22 +602,10 @@
             },
             "mon": [
                 {
-                    "type": "activity",
-                    "title": "selecting",
-                    "release": "Apr 27 2026",
-                    "link": "https://docs.google.com/document/d/1sGZLAhnADT9hciNaCEaTh6Ht2rW5tBigJc68pQZ8lsw/edit?usp=sharing"
-                },
-                {
                     "type": "jlecture",
                     "title": "worst-case analysis",
                     "release": "Apr 27 2026",
-                    "link": "https://drive.google.com/file/d/1zaSPQEnSLb9bvzqKMNyvNN8W68mA1Bxj/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "success metrics",
-                    "release": "Apr 27 2026",
-                    "link": "https://docs.google.com/document/d/1xp0BeUTmIqSAeMfe5hCNgfO2FUlHHkda7yZUtfF02kE/edit?usp=sharing"
+                    "link": "https://drive.google.com/file/d/1oApGESFtUCm-SmwREhYdQL9FRSaAGjXb/view?usp=sharing"
                 }
             ],
             "wed": [
