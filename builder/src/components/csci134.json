@@ -744,22 +744,42 @@
                     "title": "focus group",
                     "release": "May 13 2026",
                     "link": "https://docs.google.com/document/d/1LuuR79XwEpKxIphSjYhnqzpZFiK4IeFfpBij8ELNNtA/edit?usp=sharing"
-                }
-            ],
-            "fri": [
+                },
                 {
                     "type": "lecture",
                     "title": "timer events",
-                    "release": "May 15 2026",
+                    "release": "May 13 2026",
                     "link": "https://drive.google.com/file/d/1u8_tDU_qP1O5SH0_5Xqdkb8xrkbPCgng/view?usp=drive_link"
                 },
                 {
                     "type": "activity",
                     "title": "version 2.0",
-                    "release": "May 15 2026",
+                    "release": "May 13 2026",
                     "link": "https://docs.google.com/document/d/1I4zPuw4DTt6M0Q33bh2ZnQzMvSXthi1K92NgqvzcT0s/edit?usp=sharing"
                 }
+            ],
+            "fri": [
+                {
+                    "type": "activity",
+                    "title": "final exam practice",
+                    "release": "May 15 2026",
+                    "link": ""
+                }
             ]
+        },
+        {
+            "id": "week-14",
+            "week": 14,
+            "lab": {
+                "id": "lab-12",
+                "title": "breakout",
+                "due": "May 22 2026",
+                "release": "May 16 2026",
+                "link": ""
+            },
+            "mon": [],
+            "wed": [],
+            "fri": []
         }
     ]
 }
