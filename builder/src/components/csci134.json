@@ -703,21 +703,9 @@
             "mon": [
                 {
                     "type": "jlecture",
-                    "title": "hexadecimal representation",
+                    "title": "hexadecimal representation and files",
                     "release": "May 11 2026",
-                    "link": "https://drive.google.com/file/d/1cQEAW1RoEXPT5kEVu62RaKFfyFOwrPvZ/view?usp=sharing"
-                },
-                {
-                    "type": "activity",
-                    "title": "memoranda",
-                    "release": "May 11 2026",
-                    "link": "https://docs.google.com/document/d/1INILeLL7_IPm05zXSFHpPkJVJ-Cp-0rHXZv7BI9dDxg/edit?usp=sharing"
-                },
-                {
-                    "type": "jlecture",
-                    "title": "files",
-                    "release": "May 11 2026",
-                    "link": "https://drive.google.com/file/d/19DxBJQPqLdQxDZzW8MIXOwOXw8Ia5nH-/view?usp=drive_link"
+                    "link": "https://drive.google.com/file/d/1QjNNo_vDHcDDq3C9CtXuM-H93zf8eKSe/view?usp=sharing"
                 }
             ],
             "wed": [
