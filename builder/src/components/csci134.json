@@ -747,7 +747,7 @@
                 }
             ],
             "fri": [
-		 {
+                {
                     "type": "jlecture",
                     "title": "course wrapup",
                     "release": "May 15 2026",
@@ -757,7 +757,7 @@
                     "type": "activity",
                     "title": "final exam practice",
                     "release": "May 15 2026",
-                    "link": ""
+                    "link": "https://docs.google.com/document/d/1uaNgK1yBJZNBtx3TQgOjmPxCROHW9HURz_cp99FZvKE/edit?usp=sharing"
                 }
             ]
         },
