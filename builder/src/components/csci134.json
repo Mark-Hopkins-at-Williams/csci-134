@@ -747,6 +747,12 @@
                 }
             ],
             "fri": [
+		 {
+                    "type": "jlecture",
+                    "title": "course wrapup",
+                    "release": "May 15 2026",
+                    "link": "https://drive.google.com/file/d/1hg4HMAMZmE_36-3mXzqsNWrpbNcEBC7w/view?usp=drive_link"
+                },
                 {
                     "type": "activity",
                     "title": "final exam practice",
